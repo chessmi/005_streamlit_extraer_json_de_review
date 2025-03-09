@@ -54,7 +54,7 @@ st.header("Extraer Información Clave de Reseñas de Productos")
 
 
 # Introducción e instrucciones
-col1, col2 = st.columns(2)
+col1, = st.columns(1)
 
 with col1:
     st.markdown("Extrae información clave de una reseña de producto:")
@@ -63,9 +63,6 @@ with col1:
         - ¿Cuánto tiempo tardó en llegar?
         - ¿Cómo se percibió su precio?
         """)
-
-with col2:
-    st.write("Contacta con [AI Accelera](https://aiaccelera.com) para desarrollar tus proyectos de IA.")
 
 
 # Entrada de la clave API de OpenAI
